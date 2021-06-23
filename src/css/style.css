@@ -1,0 +1,142 @@
+.modal {
+    display: flex;
+    flex-direction: column;
+    max-width:500px;
+    border: 1px solid;
+    padding:20px;
+    min-width: 300px;
+    position: absolute;
+    left: 35%;
+    top:200px;
+    background-color: white;
+}
+
+.modal-remove {
+    display: none;
+    flex-direction: column;
+    max-width:200px;
+    border: 1px solid;
+    padding:20px;
+    margin-left:auto;
+    margin-right: auto;
+    position: absolute;
+    left: 300px;
+    top:200px;
+    background-color: white;
+}
+
+.content-container {
+    width: 70%;
+    text-align: center;
+}
+
+.description-ticket {
+    display: none;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.continueButton {
+    margin-right: 20px;
+    border: 1px solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.okBtn {
+    margin-right: 20px;
+    border: 1px solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cancelButton {
+    border: 1px solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cancelBtn {
+    border: 1px solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.header-modal {
+    text-align: center;
+}
+
+.field {
+    margin-top: 10px;
+    border: 1px solid;
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 50%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.field-container {
+    width: 60%;
+    position: relative;
+}
+
+.list-users {
+    width: 180px;
+    position: absolute;
+    height: 250px;
+    border: 1px solid;
+    border-radius: 5px;
+    left: -182px;
+    background-color: white;
+    top: 20px;
+}
+
+.user {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.nickname {
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.date {
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.content {
+    cursor: pointer;
+}
