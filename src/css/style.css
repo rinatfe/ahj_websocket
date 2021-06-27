@@ -85,11 +85,15 @@ label {
     left: 50%;
     background-color: white;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .field-container {
     width: 60%;
     position: relative;
+    display: none;
 }
 
 .list-users {
@@ -123,8 +127,12 @@ label {
 
 
 
-
-
+.entry {
+    width: 90%;
+    margin-left: 10px;
+    max-height: 25px;
+    margin-bottom: 25px;
+}
 
 
 .button-container {
@@ -139,4 +147,24 @@ label {
 
 .content {
     cursor: pointer;
+}
+
+.messages {
+    margin-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    overflow: auto;
+    height: 80%;
+}
+
+.message {
+    width: 50%;
+    font-size: 12px;
+}
+
+.true {
+    align-self: flex-end;
 }
